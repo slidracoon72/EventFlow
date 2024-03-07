@@ -1,0 +1,102 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    color: #f0f4ef;
+    box-sizing: border-box;
+    margin-left: 23vw;
+    margin-top: 50px;
+}
+
+.back {
+    background-image: url('/img/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+    color: #f0f4ef;
+    padding: 30px;
+}
+
+.log-reg {
+    font-size: large;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.header-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    /* Adjust margin-top as needed */
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #F0F4EF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #c18e00;
+}
+
+/* visited link */
+a:visited {
+    color: #c18e00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #eab522;
+}
+
+/* selected link */
+a:active {
+    color: #c18e00;
+}

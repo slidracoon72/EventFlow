@@ -1,0 +1,26 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 94vw;
+    /* Ensure the dashboard container does not extend beyond the screen */
+    overflow-x: hidden;
+}
+
+.venue-container,
+.event-container {
+    flex: 1;
+    /* Make both containers take up equal space */
+    overflow-x: auto;
+    /* Enable vertical scrolling if content exceeds container height */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    /* background-image: linear-gradient(to left top, #4b4c49, #6f706c, #949692, #bcbeba, #e5e7e3); */
+    border-radius: 20px;
+    /* background: rgb(164,155,155);
+    background: linear-gradient(338deg, rgba(164,155,155,1) 0%, rgba(66,68,70,1) 100%); */
+    background-image: url('/img/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

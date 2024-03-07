@@ -1,0 +1,166 @@
+.form {
+    /* background-color: #15172b; */
+    background-color: #333;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 650px;
+    padding: 20px 20px 50px 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.ic1 {
+    margin-top: 40px;
+}
+
+.ic2 {
+    margin-top: 30px;
+}
+
+.input {
+    background-color: #726f6f;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.cut {
+    background-color: #333;
+    color: black;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 85px;
+}
+
+.cut-short {
+    width: 50px;
+}
+
+.input:focus~.cut,
+.input:not(:placeholder-shown)~.cut {
+    transform: translateY(8px);
+}
+
+.placeholder {
+    color: #ffffff7d;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+
+}
+
+.input:not(:placeholder-shown)~.placeholder {
+    color: #808097;
+    padding-right: 10px;
+
+}
+
+.input:focus~.placeholder {
+    color: #c10000;
+
+}
+
+.submit {
+    background-color: #c10000;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+    width: 25%;
+    float: right;
+}
+
+.submit:active {
+    background-color: #8f0303;
+}
+
+.cancel {
+    background-color: #c10000;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.cancel:active {
+    background-color: #8f0303;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #eee;
+}
+
+.checkbox-item {
+    flex: 1 0 20.00%; /* Each checkbox takes 33.33% of the container width */
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.facilities {
+    color:#ffffff7d;
+    margin-bottom: 20px;
+}
+.height {
+    height: max-content;
+}
