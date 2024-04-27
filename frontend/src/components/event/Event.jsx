@@ -22,6 +22,7 @@ const Event = () => {
       setEvents(sortedEvents);
     } catch (error) {
       console.error('Error fetching events:', error);
+      console.log("Error");
     }
   };
 

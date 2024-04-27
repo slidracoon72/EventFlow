@@ -32,7 +32,7 @@ const EventGuest = () => {
                         />
                     ))
                 ) : (
-                    <div>
+                    <div style={{color:'white'}}>
                         <h3>You have not registered for any events</h3>
                         <p>Tip: You can attend events from the <a href="http://localhost:5173/dashboard">Dashboard</a></p>
                     </div>

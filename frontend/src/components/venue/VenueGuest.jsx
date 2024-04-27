@@ -33,7 +33,7 @@ const VenueGuest = () => {
                         />
                     ))
                 ) : (
-                    <div>
+                    <div style={{color:'white'}}>
                         <h3>No venues are currently booked</h3>
                         <p>Tip: You can book Venues from <a href="http://localhost:5173/dashboard">Dashboard</a></p>
                     </div>
